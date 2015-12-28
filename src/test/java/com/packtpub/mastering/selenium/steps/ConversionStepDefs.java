@@ -4,6 +4,7 @@ import cucumber.annotation.en.Given;
 import cucumber.annotation.en.Then;
 import cucumber.annotation.en.When;
 import cucumber.runtime.PendingException;
+import static org.junit.Assert.fail;
 
 /**
  * Created by julieGong on 12/27/15.
@@ -16,7 +17,7 @@ public class ConversionStepDefs {
         // Express the Regexp above with the code you wish you had
 
 
-
+        fail("failed test");
 
         throw new PendingException();
     }
